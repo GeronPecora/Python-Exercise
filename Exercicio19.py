@@ -6,11 +6,11 @@ Crie um programa que leia o nome completo de uma pessoa e mostre:
 -Quantas letras tem o primeiro nome.
 '''
 
-nome = str(input('Digite seu nome completo: ')).strip()
+name = str(input('Digite seu nome completo: ')).strip()
 
 print('Analisando seu nome...\n')
 
-print(f'Seu nome MAIÚSCULO seria assim: {nome.upper()}')
-print(f'Seu nome minúsculo seria assim: {nome.lower()}')
-print(f"Seu nome tem {len(nome) - nome.count(' ')} letras.")
-print(f"Seu primeiro nome tem {nome.find(' ')} letras.")
+print(f'Seu nome MAIÚSCULO seria assim: {name.upper()}')
+print(f'Seu nome minúsculo seria assim: {name.lower()}')
+print(f"Seu nome tem {len(name) - name.count(' ')} letras.")
+print(f"Seu primeiro nome tem {name.find(' ')} letras.")
